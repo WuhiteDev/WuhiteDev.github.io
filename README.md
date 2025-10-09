@@ -133,8 +133,8 @@
       </div>
     <section>
       <h2>Contact</h2>
-      <p>Discord: <cesar_banana#2500</strong></p>
-      <p>Roblox: <CESARBENDYROBLOX2</strong></p>
+      <p>Discord: cesar_banana#2500 </p>
+      <p>Roblox: CESARBENDYROBLOX2 </p>
       <p>Email: <a href="mailto:c3sarbendy@gmail.com">c3sarbendy@gmail.com</a></p>
     </section>
   </main>
