@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>[Wuhite] - Roblox Developer Portfolio</title>
+  <title>Wuhite - Roblox Developer Portfolio</title>
   <style>
     :root {
       --bg: #0f1115;
@@ -101,7 +101,7 @@
 <body>
 
   <header>
-    <h1>[Wuhite]</h1>
+    <h1>Wuhite</h1>
     <p>LUA Programmer in Roblox Studio</p>
   </header>
 
@@ -134,7 +134,7 @@
     <section>
       <h2>Contact</h2>
       <p>Discord: <cesar_banana#2500</strong></p>
-      <p>Roblox: <CESARBENDYROBLOX2</
+      <p>Roblox: <CESARBENDYROBLOX2</strong></p>
       <p>Email: <a href="mailto:c3sarbendy@gmail.com">c3sarbendy@gmail.com</a></p>
     </section>
   </main>
