@@ -102,13 +102,13 @@
 
   <header>
     <h1>[Your Name]</h1>
-    <p>Roblox Systems & Gameplay Programmer</p>
+    <p>LUA Programmer in Roblox Studio</p>
   </header>
 
   <main>
     <section>
       <h2>About Me</h2>
-      <p>I'm a Roblox Studio programmer specializing in modular systems, DataStore handling, and UI development. I'm looking to join a team to sharpen my skills and create quality interactive experiences alongside other developers.</p>
+      <p>I'm a Roblox Studio programmer specializing in modular systems. with basic/medium knowledge from animating & VFX. I'm looking to join a team to sharpen my skills and create quality interactive experiences alongside other developers.</p>
     </section>
 
     <section>
@@ -131,12 +131,10 @@
         <p>Teleportation system between areas with smooth animations and visual feedback.</p>
         <a href="https://github.com/yourusername/teleport-hub">View on GitHub</a>
       </div>
-    </section>
-
     <section>
       <h2>Contact</h2>
-      <p>Discord: <strong>your_name#0000</strong></p>
-      <p>Email: <a href="mailto:yourname.dev@gmail.com">yourname.dev@gmail.com</a></p>
+      <p>Discord: <cesar_banana#2500</strong></p>
+      <p>Email: <a href="mailto:c3sarbendy@gmail.com">c3sarbendy@gmail.com</a></p>
     </section>
   </main>
 
