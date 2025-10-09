@@ -141,7 +141,7 @@
   </main>
 
   <footer>
-    <p>© 2025 [Your Name]. Hosted with ♥ on <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+    <p>© 2025 Wuhite. Hosted with ♥ on <a href="https://pages.github.com/">GitHub Pages</a>.</p>
   </footer>
 
 </body>
