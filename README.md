@@ -1,33 +1,148 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio de [Seu Nome]</title>
+  <title>[Wuhite] - Roblox Developer Portfolio</title>
   <style>
-    body { font-family: sans-serif; margin: 40px; background: #f8f9fa; color: #222; }
-    h1 { color: #2c3e50; }
-    .project { background: white; padding: 20px; border-radius: 12px; margin: 20px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-    a { color: #007bff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    :root {
+      --bg: #0f1115;
+      --card: #1a1d24;
+      --text: #e6e6e6;
+      --accent: #00bcd4;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: "Inter", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: var(--accent);
+    }
+
+    header p {
+      color: #bbb;
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      color: var(--accent);
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 5px;
+      font-size: 1.5rem;
+    }
+
+    .project {
+      background-color: var(--card);
+      border-radius: 14px;
+      padding: 20px;
+      margin-top: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+
+    .project h3 {
+      margin: 0;
+      color: var(--accent);
+    }
+
+    .project p {
+      margin: 10px 0 0;
+      color: #ccc;
+    }
+
+    .project a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>Portfólio de [Seu Nome]</h1>
-  <p>Programador focado em sistemas e gameplay no Roblox Studio. Busco colaborar em equipes e aprender mais sobre desenvolvimento.</p>
 
-  <div class="project">
-    <h2>Inventory System V2</h2>
-    <p>Sistema modular com DataStore e interface dinâmica.</p>
-    <a href="https://github.com/seuusuario/inventory-system">Ver código</a>
-  </div>
+  <header>
+    <h1>[Your Name]</h1>
+    <p>Roblox Systems & Gameplay Programmer</p>
+  </header>
 
-  <div class="project">
-    <h2>UI Manager</h2>
-    <p>Gerenciamento de interfaces em Roblox Studio com RemoteEvents.</p>
-    <a href="https://github.com/seuusuario/ui-manager">Ver código</a>
-  </div>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>I'm a Roblox Studio programmer specializing in modular systems, DataStore handling, and UI development. I'm looking to join a team to sharpen my skills and create quality interactive experiences alongside other developers.</p>
+    </section>
 
-  <p>Contato: <a href="mailto:seunome.dev@gmail.com">seunome.dev@gmail.com</a></p>
+    <section>
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Inventory System V2</h3>
+        <p>Modular inventory system featuring automatic save/load through DataStore and dynamic UI elements.</p>
+        <a href="https://github.com/yourusername/inventory-system">View on GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3>UI Manager</h3>
+        <p>UI management system built with RemoteEvents and RemoteFunctions for scalable interfaces.</p>
+        <a href="https://github.com/yourusername/ui-manager">View on GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3>Teleport Hub</h3>
+        <p>Teleportation system between areas with smooth animations and visual feedback.</p>
+        <a href="https://github.com/yourusername/teleport-hub">View on GitHub</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Discord: <strong>your_name#0000</strong></p>
+      <p>Email: <a href="mailto:yourname.dev@gmail.com">yourname.dev@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 [Your Name]. Hosted with ♥ on <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+  </footer>
+
 </body>
 </html>
