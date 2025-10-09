@@ -115,26 +115,15 @@
       <h2>Projects</h2>
 
       <div class="project">
-        <h3>Inventory System V2</h3>
-        <p>Modular inventory system featuring automatic save/load through DataStore and dynamic UI elements.</p>
-        <a href="https://github.com/yourusername/inventory-system">View on GitHub</a>
-      </div>
-
-      <div class="project">
-        <h3>UI Manager</h3>
-        <p>UI management system built with RemoteEvents and RemoteFunctions for scalable interfaces.</p>
-        <a href="https://github.com/yourusername/ui-manager">View on GitHub</a>
-      </div>
-
-      <div class="project">
         <h3>Teleport Hub</h3>
         <p>Teleportation system between areas with smooth animations and visual feedback.</p>
         <a href="https://github.com/yourusername/teleport-hub">View on GitHub</a>
       </div>
+    </section>
     <section>
       <h2>Contact</h2>
-      <p>Discord: cesar_banana#2500 </p>
-      <p>Roblox: CESARBENDYROBLOX2 </p>
+      <p>Discord: cesar_banana#2500</p>
+      <p>Roblox: <a href="https://www.roblox.com/users/youruserid/profile">CESARBENDYROBLOX2</a></p>
       <p>Email: <a href="mailto:c3sarbendy@gmail.com">c3sarbendy@gmail.com</a></p>
     </section>
   </main>
