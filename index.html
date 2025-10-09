@@ -8,8 +8,8 @@
     :root {
       --bg: #0f1115;
       --card: #1a1d24;
-      --text: #e6e6e6;
-      --accent: #00bcd4;
+      --text: #ffffff; /* todo texto branco */
+      --accent: #a020f0; /* roxo */
     }
 
     body {
@@ -18,6 +18,24 @@
       font-family: "Inter", Arial, sans-serif;
       margin: 0;
       padding: 0;
+    }
+
+    /* Linha roxa lateral */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0; /* totalmente à esquerda */
+      width: 3px;
+      height: 100%;
+      background: linear-gradient(to bottom, #a020f0, #6a0dad);
+      opacity: 0.8;
+      z-index: 0;
+    }
+
+    main, header, footer, section, .project {
+      position: relative;
+      z-index: 1; /* conteúdo acima da linha */
     }
 
     header {
@@ -32,7 +50,7 @@
     }
 
     header p {
-      color: #bbb;
+      color: var(--text);
       margin-top: 10px;
       font-size: 1rem;
     }
@@ -69,7 +87,7 @@
 
     .project p {
       margin: 10px 0 0;
-      color: #ccc;
+      color: var(--text);
     }
 
     .project a {
@@ -85,7 +103,7 @@
       text-align: center;
       padding: 40px;
       font-size: 0.9rem;
-      color: #777;
+      color: var(--text);
     }
 
     footer a {
@@ -108,11 +126,23 @@
   <main>
     <section>
       <h2>About Me</h2>
-      <p>I'm a Roblox Studio programmer specializing in modular systems. with basic/medium knowledge from animating & VFX. I'm looking to join a team to sharpen my skills and create quality interactive experiences alongside other developers.</p>
+      <p>I'm a Roblox Studio programmer specializing in modular systems, with basic/medium knowledge in animation & VFX. I'm looking to join a team to sharpen my skills and create quality interactive experiences alongside other developers.</p>
     </section>
 
     <section>
       <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Inventory System V2</h3>
+        <p>Modular inventory system featuring automatic save/load through DataStore and dynamic UI elements.</p>
+        <a href="https://github.com/yourusername/inventory-system">View on GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3>UI Manager</h3>
+        <p>UI management system built with RemoteEvents and RemoteFunctions for scalable interfaces.</p>
+        <a href="https://github.com/yourusername/ui-manager">View on GitHub</a>
+      </div>
 
       <div class="project">
         <h3>Teleport Hub</h3>
@@ -120,6 +150,7 @@
         <a href="https://github.com/yourusername/teleport-hub">View on GitHub</a>
       </div>
     </section>
+
     <section>
       <h2>Contact</h2>
       <p>Discord: cesar_banana#2500</p>
